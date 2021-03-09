@@ -1,0 +1,247 @@
+
+/***********************
+// Cookie Popup
+***********************/
+
+.wordpress-fire-push-popup {
+  position: fixed;
+  font-size: 13px;
+  line-height: 17px;
+  z-index: 999999999;
+    box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.wordpress-fire-push-popup-container {
+  display: none;
+  padding: 20px;
+}
+
+.wordpress-fire-push-popup p {
+  margin: 0;
+}
+
+.wordpress-fire-push-popup-full-width {
+  width: 100%;
+  text-align: center;
+}
+
+.wordpress-fire-push-popup-top {
+  top: 0;
+}
+
+.wordpress-fire-push-popup-bottom {
+  bottom: 0;
+}  
+
+.wordpress-fire-push-popup-full-width {
+  width: 100%;
+  text-align: center;
+}
+
+.wordpress-fire-push-popup-privacy-center, .wordpress-fire-push-popup-read-more, .wordpress-fire-push-popup-privacy-settings-text {
+    display: block;
+    float: none;
+    clear: both;
+}
+
+.wordpress-fire-push-popup-agree, .wordpress-fire-push-popup-decline {
+    padding: 8px 15px;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+    padding: 10px 20px;
+}
+
+a.wordpress-fire-push-popup-agree:hover, a.wordpress-fire-push-popup-decline:hover, a.wordpress-fire-push-popup-agree:active, a.wordpress-fire-push-popup-decline:active {
+  color: #FFFFFF;
+}
+
+.wordpress-fire-push-popup-agree {
+    background: #FF5722;
+    float: left;
+}
+
+.wordpress-fire-push-popup-decline {
+    background: #9E9E9E;
+    float: right;
+}
+
+.wordpress-fire-push-popup-full-width .wordpress-fire-push-popup-agree, .wordpress-fire-push-popup-full-width .wordpress-fire-push-popup-decline{
+  float: none;
+}
+
+.wordpress-fire-push-popup-actions {
+    margin-top: 20px;
+}
+
+.wordpress-fire-push-popup-actions-links a {
+    display: inline;
+}
+
+.wordpress-fire-push-popup-overlay .wordpress-fire-push-popup-container {
+  position: fixed;
+  z-index: 99999;
+  width: 90%;
+  max-width: 500px;
+  height: auto;
+  margin: auto;
+  padding: 35px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+
+.wordpress-fire-push-popup-overlay-backdrop {
+  z-index: 9999;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.7);
+  display: none;
+}
+
+.wordpress-fire-push-popup-actions a, .wordpress-fire-push-popup-actions a:hover, .wordpress-fire-push-popup-actions a:active {
+  font-weight: bold;
+  margin-right: 5px;
+  text-decoration: underline;
+}
+
+.wordpress-fire-push-popup-small {
+  width: 400px;
+  margin-right: 30px;
+  right: 0;
+  bottom: 20px;
+}
+
+.wordpress-fire-push-popup-small .wordpress-fire-push-popup-agree {
+  display: block;
+}
+
+.wordpress-fire-push-popup-small.wordpress-fire-push-popup-top {
+    bottom: auto;
+    top: 30px;
+}
+
+.wordpress-fire-push-popup-close {
+  position: absolute;
+  top: -12.5px;
+  right: -12.5px;
+  display: block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.wordpress-fire-push-popup-full-width .wordpress-fire-push-popup-close {
+  top: 10px;
+  right: 10px;
+}
+
+@media(max-width: 768px) {
+  .wordpress-fire-push-popup-small {
+    width: 90%;
+    margin: 0 auto;
+    left: 0;
+  }
+}
+
+
+
+
+.chromeview{
+	background-color: #606670;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    word-break: break-all;min-height: 80px;padding-bottom: 5px;}
+.chromebox {width:30%;float:left;margin-right:3%;}	
+.firefoxbox {width:30%;float:left;margin-right:3%;}	
+.androidbox {width:30%;float:left;}	
+
+.redux-notice-field { 
+    float: left;
+    width: 100%;padding-bottom: 20px;
+}
+
+
+
+.firefoxview{
+	background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px #DAD6D6;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    word-break: break-all;min-height: 80px;padding: 5px 0px;}
+
+
+.Androidview{
+	background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px #DAD6D6;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    word-break: break-all;min-height: 80px;}	
+	
+	
+.chromemac{
+	background-color: #dedfe0;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px #DAD6D6;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    word-break: break-all;min-height: 80px;}		
+	
+	
+	
+	
+.chromeicon{ width: 50px; height: 50px; margin: 10px; }
+.fireicon{ width: 50px; height: 50px;background:#F3F3F3;    margin: 0px 10px;text-align: center; }
+.fireicon img{ max-width: 50px; max-height: 50px; }
+.chrmicon{ width: 40px; height: 40px;margin: 10px 10px; }
+.chrmicon img{ max-height: 60px;}
+.chromeicon img{ max-height: 70px;}
+.chrmioscon{ width: 40px; height: 40px;margin: 10px 10px 10px 0px; }
+.leftchrm{ width: 25%; float:left; }
+.leftios{ width: 20%; float:left; }
+.rightios{ width: 60%; float:left; }
+.leftnios{ width: 20%; float:left; }
+.rightchrm{ width: 75%; float:left; }
+.chrtitle{ width: 90%;color: #fff;   font-weight: 400;   padding: 0!important;   font-size: 15px;   margin-bottom: 0px!important; }
+.firetitle{ width: 90%;color: #000;   font-weight: 500;   padding:0px 0px 3px 0px!important;   font-size: 15px;   margin-bottom: 0px!important;width: 100%; margin-left: 5px!important;    margin-top: 0!important }
+
+.iostitle{  width: 90%;color: #000;   font-weight: 500;   padding:5px 0px 0px 0px!important;   font-size: 15px;   margin-bottom: 0px!important;width: 100%; margin-left: 5px!important;    margin-top: 0!important}
+
+.chrbody{ width: 90%;color: #fff;   font-weight: 100;   padding: 0!important;   font-size: 13px;   margin: 0px!important;  }
+.firebody{ width: 90%;color: #000;   font-weight: 100;   padding: 0!important;   font-size: 13px;   margin: 0px!important;  }
+#siteurl{display:none;}
+
+.chrurl{ width: 90%;color: #fff;   font-weight: 100;   padding: 0!important;   font-size: 13px;   margin: 0px!important;  }
+.fireurl{ width: 90%;color: #000;   font-weight: 100;   padding: 0!important;   font-size: 13px;   margin: 0px!important;  }
+.chrbody{ width: 90%;color: #fff;   font-weight: 100;   padding: 0!important;   font-size: 13px;   margin: 0px!important;  }
+.andbody{ width: 90%;color: #000;   font-weight: 100;   padding: 0px 0px 3px 0px!important;   font-size: 13px;   margin: 0px!important; border-bottom: 1px solid #d2d0d0; }
+.iosbody{ width: 90%;color: #000;   font-weight: 100;   padding: 0px 0px 3px 0px!important;   font-size: 13px;   margin: 0px!important; }
+
+
+	
+.mainviewbox {width: 100%;   display: block;    float: left;    margin-bottom: 20px;}
+	
+
+
