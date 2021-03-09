@@ -1,0 +1,524 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-07 06:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: wordpress-fire-push.php:85
+msgid ""
+"WordPress Fire_Push requires the Redux Framework Please install or activate "
+"it before!"
+msgstr ""
+
+#: admin/class-wordpress-fire-push-admin.php:65
+#: public/class-wordpress-fire-push-public.php:76
+msgid ""
+"Notifications are disabled by your browser. Please click on the info icon "
+"near your browser URL to adjust notification settings!"
+msgstr ""
+
+#: admin/class-wordpress-fire-push-notifications.php:70
+#: admin/class-wordpress-fire-push-notifications.php:71
+msgid "Notifications"
+msgstr ""
+
+#: admin/class-wordpress-fire-push-notifications.php:82
+msgid "No Notifications sent so far ..."
+msgstr ""
+
+#: admin/class-wordpress-fire-push-notifications.php:91
+msgid "Notification"
+msgstr ""
+
+#: admin/class-wordpress-fire-push-notifications.php:92
+msgid "Sent"
+msgstr ""
+
+#: admin/class-wordpress-fire-push-notifications.php:93
+msgid "Failed"
+msgstr ""
+
+#: admin/class-wordpress-fire-push-notifications.php:94
+msgid "Clicked"
+msgstr ""
+
+#. Name of the plugin
+#: admin/options-init.php:28 admin/options-init.php:30
+msgid "WordPress Fire Push"
+msgstr ""
+
+#: admin/options-init.php:36
+msgid "Fire Push"
+msgstr ""
+
+#: admin/options-init.php:91
+msgid "Information"
+msgstr ""
+
+#: admin/options-init.php:92
+msgid "<p>Need support? Please use the comment function on codecanyon.</p>"
+msgstr ""
+
+#: admin/options-init.php:108
+msgid "General Settings"
+msgstr ""
+
+#: admin/options-init.php:110 admin/options-init.php:466
+#: admin/options-init.php:812
+msgid "Need support? Please use the comment function on codecanyon."
+msgstr ""
+
+#: admin/options-init.php:115
+msgid "Settings"
+msgstr ""
+
+#: admin/options-init.php:122 admin/options-init.php:382
+msgid "Enable"
+msgstr ""
+
+#: admin/options-init.php:128
+msgid "Save Guest Token"
+msgstr ""
+
+#: admin/options-init.php:129
+msgid ""
+"Tokens are used to send notifications to users. If you do not want to send "
+"notifictions to logged out users disable this option to only save tokens for "
+"logged in users."
+msgstr ""
+
+#: admin/options-init.php:136
+msgid "Credentials"
+msgstr ""
+
+#: admin/options-init.php:138
+msgid ""
+"Please read our documentation how to get your Firebase API Credentials here."
+msgstr ""
+
+#: admin/options-init.php:144
+msgid "Server Key"
+msgstr ""
+
+#: admin/options-init.php:151
+msgid "apiKey"
+msgstr ""
+
+#: admin/options-init.php:158
+msgid "authDomain"
+msgstr ""
+
+#: admin/options-init.php:165
+msgid "databaseURL"
+msgstr ""
+
+#: admin/options-init.php:172
+msgid "projectId"
+msgstr ""
+
+#: admin/options-init.php:179
+msgid "storageBucket"
+msgstr ""
+
+#: admin/options-init.php:186
+msgid "messagingSenderId"
+msgstr ""
+
+#: admin/options-init.php:194
+msgid "Defaults"
+msgstr ""
+
+#: admin/options-init.php:196
+msgid "Theses will be used as a fallback in case no specific data was defined."
+msgstr ""
+
+#: admin/options-init.php:202 admin/options-init.php:388
+#: admin/options-init.php:428 admin/options-init.php:524
+#: admin/options-init.php:609 admin/options-init.php:693
+#: admin/options-init.php:778 admin/options-init.php:831
+#: admin/options-init.php:876 admin/options-init.php:922
+#: admin/options-init.php:967
+msgid "Title"
+msgstr ""
+
+#: admin/options-init.php:209 admin/options-init.php:395
+#: admin/options-init.php:434 admin/options-init.php:531
+#: admin/options-init.php:616 admin/options-init.php:700
+#: admin/options-init.php:785 admin/options-init.php:838
+#: admin/options-init.php:883 admin/options-init.php:929
+#: admin/options-init.php:974
+msgid "Text"
+msgstr ""
+
+#: admin/options-init.php:216
+msgid "Click Action URL"
+msgstr ""
+
+#: admin/options-init.php:224 admin/options-init.php:409
+#: admin/options-init.php:447 admin/options-init.php:546
+#: admin/options-init.php:631 admin/options-init.php:715
+#: admin/options-init.php:800 admin/options-init.php:852
+#: admin/options-init.php:897 admin/options-init.php:943
+#: admin/options-init.php:988
+msgid "Icon"
+msgstr ""
+
+#: admin/options-init.php:225 admin/options-init.php:410
+#: admin/options-init.php:448
+msgid "The icon must be in square format."
+msgstr ""
+
+#: admin/options-init.php:235
+msgid "Popup"
+msgstr ""
+
+#: admin/options-init.php:237
+msgid "The popup when user has not given permission for messaging."
+msgstr ""
+
+#: admin/options-init.php:243
+msgid "Enable Popup"
+msgstr ""
+
+#: admin/options-init.php:249
+msgid "Popup Text"
+msgstr ""
+
+#: admin/options-init.php:250
+msgid "We would like to keep you updated with special notifications."
+msgstr ""
+
+#: admin/options-init.php:256
+msgid "Popup Agree Text"
+msgstr ""
+
+#: admin/options-init.php:257 admin/options-init.php:265
+msgid "Leave Empty if not needed"
+msgstr ""
+
+#: admin/options-init.php:258
+msgid "I accept"
+msgstr ""
+
+#: admin/options-init.php:264
+msgid "Popup Decline Text"
+msgstr ""
+
+#: admin/options-init.php:266
+msgid "I decline"
+msgstr ""
+
+#: admin/options-init.php:272
+msgid "Popup Style"
+msgstr ""
+
+#: admin/options-init.php:274
+msgid "Full Width"
+msgstr ""
+
+#: admin/options-init.php:275
+msgid "Small Width"
+msgstr ""
+
+#: admin/options-init.php:283
+msgid "Popup Position"
+msgstr ""
+
+#: admin/options-init.php:285
+msgid "Top"
+msgstr ""
+
+#: admin/options-init.php:286
+msgid "Bottom"
+msgstr ""
+
+#: admin/options-init.php:294
+msgid "Background Color"
+msgstr ""
+
+#: admin/options-init.php:302
+msgid "Text Color"
+msgstr ""
+
+#: admin/options-init.php:310
+msgid "Accept Button Text Color"
+msgstr ""
+
+#: admin/options-init.php:318
+msgid "Accept Button Background Color"
+msgstr ""
+
+#: admin/options-init.php:326
+msgid "Decline Button Text Color"
+msgstr ""
+
+#: admin/options-init.php:334
+msgid "Decline Button Background Color"
+msgstr ""
+
+#: admin/options-init.php:342
+msgid "Link Color"
+msgstr ""
+
+#: admin/options-init.php:350
+msgid "Close Icon"
+msgstr ""
+
+#: admin/options-init.php:357
+msgid "Close Icon Background Color"
+msgstr ""
+
+#: admin/options-init.php:365
+msgid "Close Icon Color"
+msgstr ""
+
+#: admin/options-init.php:374
+msgid "Welcome Notification"
+msgstr ""
+
+#: admin/options-init.php:376
+msgid "Send users visiting your website a welcome notification."
+msgstr ""
+
+#: admin/options-init.php:389
+msgid "Thanks for Subscribing"
+msgstr ""
+
+#: admin/options-init.php:396
+msgid "We will keep you updated as soon as something special comes up!"
+msgstr ""
+
+#: admin/options-init.php:402 admin/options-init.php:440
+#: admin/options-init.php:538 admin/options-init.php:623
+#: admin/options-init.php:707 admin/options-init.php:792
+#: admin/options-init.php:845 admin/options-init.php:890
+#: admin/options-init.php:936 admin/options-init.php:981
+msgid "URL (Click Action)"
+msgstr ""
+
+#: admin/options-init.php:420
+msgid "Custom Notification"
+msgstr ""
+
+#: admin/options-init.php:422
+msgid ""
+"Send a custom Notification. You need to save the options before sending!"
+msgstr ""
+
+#: admin/options-init.php:457
+msgid "Send"
+msgstr ""
+
+#: admin/options-init.php:464
+msgid "WP Notifictions"
+msgstr ""
+
+#: admin/options-init.php:471
+msgid "1. Notification"
+msgstr ""
+
+#: admin/options-init.php:473 admin/options-init.php:558
+#: admin/options-init.php:642 admin/options-init.php:727
+msgid ""
+"Configure your first notification.<br><br><b>Note:</b> You can use any "
+"placeholder for post data & meta data e.g.: {post_author}, {post_date}, "
+"{_regular_price}, {post_content}, {post_title}, {post_excerpt}, {post_status}"
+", {comment_status}, {post_modified}, {post_type} + All other data."
+msgstr ""
+
+#: admin/options-init.php:479 admin/options-init.php:564
+#: admin/options-init.php:648 admin/options-init.php:733
+msgid "Enable Notifications on Publish"
+msgstr ""
+
+#: admin/options-init.php:485 admin/options-init.php:570
+#: admin/options-init.php:654 admin/options-init.php:739
+msgid "Notify on Publish"
+msgstr ""
+
+#: admin/options-init.php:492 admin/options-init.php:577
+#: admin/options-init.php:661 admin/options-init.php:746
+msgid "Notify on Update"
+msgstr ""
+
+#: admin/options-init.php:499 admin/options-init.php:584
+#: admin/options-init.php:668 admin/options-init.php:753
+msgid "Notify on new Comment"
+msgstr ""
+
+#: admin/options-init.php:506 admin/options-init.php:591
+#: admin/options-init.php:675 admin/options-init.php:760
+msgid "Post types"
+msgstr ""
+
+#: admin/options-init.php:507 admin/options-init.php:592
+#: admin/options-init.php:676 admin/options-init.php:761
+msgid "For what post types should notifications be enabled."
+msgstr ""
+
+#: admin/options-init.php:515 admin/options-init.php:600
+#: admin/options-init.php:684 admin/options-init.php:769
+msgid "User Roles"
+msgstr ""
+
+#: admin/options-init.php:516 admin/options-init.php:601
+#: admin/options-init.php:685 admin/options-init.php:770
+msgid "Empty means all users get the notification."
+msgstr ""
+
+#: admin/options-init.php:525 admin/options-init.php:610
+#: admin/options-init.php:694 admin/options-init.php:779
+msgid "New {post_type}: {post_title}"
+msgstr ""
+
+#: admin/options-init.php:532 admin/options-init.php:617
+#: admin/options-init.php:701 admin/options-init.php:786
+#: admin/options-init.php:839 admin/options-init.php:975
+msgid "{post_excerpt}"
+msgstr ""
+
+#: admin/options-init.php:556
+msgid "2. Notification"
+msgstr ""
+
+#: admin/options-init.php:640
+msgid "3. Notification"
+msgstr ""
+
+#: admin/options-init.php:725
+msgid "4. Notification"
+msgstr ""
+
+#: admin/options-init.php:810
+msgid "WooCommerce Notifictions"
+msgstr ""
+
+#: admin/options-init.php:817
+msgid "New Product"
+msgstr ""
+
+#: admin/options-init.php:819 admin/options-init.php:864
+msgid ""
+"Configure if and how notifications for new products should be handled.<br>"
+"<br><b>Note:</b> You can use any placeholder for post data & meta data e.g.: "
+"{post_author}, {post_date}, {_regular_price}, {post_content}, {post_title}, "
+"{post_excerpt}, {post_status}, {comment_status}, {post_modified}, {post_type}"
+" + All other data."
+msgstr ""
+
+#: admin/options-init.php:825 admin/options-init.php:870
+#: admin/options-init.php:916 admin/options-init.php:961
+msgid "Enable Notification"
+msgstr ""
+
+#: admin/options-init.php:832
+msgid "New Product: {post_title}"
+msgstr ""
+
+#: admin/options-init.php:862
+msgid "Price Drop"
+msgstr ""
+
+#: admin/options-init.php:877
+msgid "Price Drop!"
+msgstr ""
+
+#: admin/options-init.php:884
+msgid "A special price is available for {post_title}"
+msgstr ""
+
+#: admin/options-init.php:908
+msgid "New Order"
+msgstr ""
+
+#: admin/options-init.php:910
+msgid ""
+"They will be send to admins & shop managers only! Configure if and how "
+"notifications for new orders should be handled."
+msgstr ""
+
+#: admin/options-init.php:923
+msgid "New Order received"
+msgstr ""
+
+#: admin/options-init.php:930
+msgid "Click to see order!"
+msgstr ""
+
+#: admin/options-init.php:953
+msgid "Low Stock"
+msgstr ""
+
+#: admin/options-init.php:955
+msgid ""
+"They will be send to admins & shop managers only! Configure if and how "
+"notifications for new orders should be handled.<br><br><b>Note:</b> You can "
+"use any placeholder for post data & meta data e.g.: {post_author}, "
+"{post_date}, {_regular_price}, {post_content}, {post_title}, {post_excerpt}, "
+"{post_status}, {comment_status}, {post_modified}, {post_type} + All other "
+"data."
+msgstr ""
+
+#: admin/options-init.php:968
+msgid "Product on Low Stock: {post_title}"
+msgstr ""
+
+#: admin/class-wordpress-fire-push-subscribers.php:70
+#: admin/class-wordpress-fire-push-subscribers.php:71
+#: admin/class-wordpress-fire-push-subscribers.php:88
+msgid "Subscribers"
+msgstr ""
+
+#: admin/class-wordpress-fire-push-subscribers.php:84
+msgid "No Tokens found so far ..."
+msgstr ""
+
+#: admin/class-wordpress-fire-push-subscribers.php:95
+msgid "User"
+msgstr ""
+
+#: admin/class-wordpress-fire-push-subscribers.php:96
+msgid "Tokens"
+msgstr ""
+
+#: admin/class-wordpress-fire-push-subscribers.php:97
+msgid "Notifications Count"
+msgstr ""
+
+#: admin/class-wordpress-fire-push-subscribers.php:117
+msgid "Guest token"
+msgstr ""
+
+#: admin/class-wordpress-fire-push-sender.php:332
+msgid "You are not an admin"
+msgstr ""
+
+#: admin/class-wordpress-fire-push-sender.php:344
+msgid "Title or Text Missing!"
+msgstr ""
+
+#. Description of the plugin
+msgid "The All in One WordPress Web Push Notification Solution"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://plugins.db-dzine.com"
+msgstr ""
+
+#. Author of the plugin
+msgid "DB-Dzine"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://www.db-dzine.de"
+msgstr ""
