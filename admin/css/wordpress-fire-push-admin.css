@@ -1,0 +1,71 @@
+.fire-push-table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    margin: 20px 0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+    background-color: #FFF;
+}
+
+.fire-push-table td, .fire-push-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.fire-push-table tr:nth-child(even){background-color: #f8f6ff;}
+
+.fire-push-table tr:hover {background-color: #ddd;}
+
+.fire-push-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.4;
+    background-color: #6c7ae0;
+    color: white;
+}
+
+.fire-push-notification {
+  background-color: #fafafa;
+  display: inline-block;
+  border-radius: 10px;
+  width: 300px;
+  padding: 20px 10px;
+  border: 1px solid #fff;
+    box-shadow: 1px 0px 15px 0px rgba(0, 0, 0, 0.30);
+    -moz-box-shadow: 1px 0px 15px 0px rgba(0, 0, 0, 0.30);
+    -webkit-box-shadow: 1px 0px 15px 0px rgba(0, 0, 0, 0.30);
+    -o-box-shadow: 1px 0px 15px 0px rgba(0, 0, 0, 0.30);
+    -ms-box-shadow: 1px 0px 15px 0px rgba(0, 0, 0, 0.30);
+}
+
+.fire-push-notification-title, .fire-push-notification-text {
+  color: #000;
+}
+
+.fire-push-notification-left {
+  width: 30%;
+  float: left;
+}
+
+.fire-push-notification-right {
+  width: 70%;
+  float: left;
+}
+
+.fire-push-notification-clear {
+  clear: both;
+  float: none;
+}
+
+.fire-push-icon {
+  text-align: center;
+}
